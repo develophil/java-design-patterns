@@ -22,30 +22,18 @@
  */
 package com.iluwatar.composite;
 
+import org.junit.Test;
+
 /**
- *
- * Letter
+ * 
+ * Application test
  *
  */
-public class Letter extends LetterComposite {
+public class AppTest {
 
-  private char c;
-
-  public Letter(char c) {
-    this.c = c;
-  }
-
-  @Override
-  protected void printThisBefore() {
-
-  }
-
-  @Override public void print() {
-    System.out.print(c);
-  }
-
-  @Override
-  protected void printThisAfter() {
-    // nop
+  @Test
+  public void test() {
+    String[] args = {};
+    App.main(args);
   }
 }

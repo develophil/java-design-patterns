@@ -58,6 +58,7 @@
         <module>adapter</module>
         <module>bridge</module>
         <module>composite</module>
+        <module>composite-slipp</module>
         <module>dao</module>
         <module>data-mapper</module>
         <module>decorator</module>
